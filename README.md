@@ -20,4 +20,6 @@ API:
 - /login
   `{ "email" : "test2@op.pl", "password" : "123456" }`
 
-- /welcome (set token in header)
+  result: jwt-token (exp 2h)
+
+- /welcome (set jwt in header) `[x-access-token-andrzej]`
